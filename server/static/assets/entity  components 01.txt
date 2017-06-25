@@ -1,0 +1,61 @@
+// ambient fire 
+
+
+<a-entity light="color:#BBB;intensity:1.43;type:ambient" data-aframe-default-light="" aframe-injected="" position="0 1.837 0" id="LightAmbient"></a-entity>
+
+
+//   fire  light
+
+<a-entity light="color:#e4f878;groundColor:#4f53f0;decay:0.02;intensity:1.95;type:point" data-aframe-default-light="" aframe-injected="" position="0 1.837 0" id="LightPoint"></a-entity>
+
+
+//tree1
+
+<a-entity position="8.325 0 0" rotation="0 0 0" scale="0.1 0.1 0.1" material="displacementMap:https://ucarecdn.com/62afa18e-d4d6-4541-b0ac-bfb890808c00/;normalMap:https://ucarecdn.com/a9d438b8-c0ac-4429-b6a9-16ec7186de4c/;normalScale:{&quot;x&quot;:6.43,&quot;y&quot;:2.2800000000000002};roughness:0.6;src:https://ucarecdn.com/a8aeb7a2-1698-4609-be3a-71f5fb6d50a8/" obj-model="obj:assets/tree01.obj" id="tree-1"></a-entity>
+
+
+//tree2
+
+<a-entity position="8.325 0 0" rotation="0 0 0" scale="0.1 0.1 0.1" material="metalness:0.18;normalMap:https://ucarecdn.com/a9d438b8-c0ac-4429-b6a9-16ec7186de4c/;normalScale:{&quot;x&quot;:5,&quot;y&quot;:1};normalTextureOffset:{&quot;x&quot;:0.59,&quot;y&quot;:0};normalTextureRepeat:{&quot;x&quot;:1.84,&quot;y&quot;:1};roughness:0.53;src:https://ucarecdn.com/a8aeb7a2-1698-4609-be3a-71f5fb6d50a8/" obj-model="obj:assets/tree01.obj" id="tree-2"></a-entity>
+
+
+//tree 3
+
+
+<a-entity position="1.734 -0.288 3.165" rotation="0 -94.9391066531774 0" scale="0.1 0.1 0.1" material="metalness:0.2;normalMap:https://ucarecdn.com/a9d438b8-c0ac-4429-b6a9-16ec7186de4c/;normalScale:{&quot;x&quot;:3.7,&quot;y&quot;:2.3200000000000003};roughness:0.63;src:https://ucarecdn.com/a8aeb7a2-1698-4609-be3a-71f5fb6d50a8/" obj-model="obj:assets/tree01.obj" id="tree-3"></a-entity>
+
+
+// tree 4 
+<a-entity position="1.734 -0.288 3.165" rotation="0 -94.9391066531774 0" scale="0.1 0.1 0.1" material="normalMap:https://ucarecdn.com/a9d438b8-c0ac-4429-b6a9-16ec7186de4c/;normalScale:{&quot;x&quot;:5,&quot;y&quot;:5};roughness:0.47;src:https://ucarecdn.com/a8aeb7a2-1698-4609-be3a-71f5fb6d50a8/" obj-model="obj:assets/tree01.obj" id="tree-4"></a-entity>
+
+
+
+// fire
+
+<a-entity position="0 0 0" scale="0.05 0.05 0.05" material="displacementScale:1.32;displacementTextureRepeat:{&quot;x&quot;:1.19,&quot;y&quot;:1};normalTextureRepeat:{&quot;x&quot;:1.14,&quot;y&quot;:1};src:https://ucarecdn.com/31127db9-213d-4797-997f-db73cbfcaaca/" obj-model="obj:assets/fire.obj" id="Fire"></a-entity>
+
+
+
+// stump 1
+
+<a-entity position="1.138 0 0" scale="0.1 0.1 0.1" material="depthTest:false;roughness:0.57" obj-model="obj:assets/stump.obj" id="stump-2"></a-entity>
+
+
+//stump2
+<a-entity position="1.138 0 0" scale="0.1 0.1 0.1" material="depthTest:false;roughness:0.57" obj-model="obj:assets/stump.obj" id="stump-2"></a-entity>
+
+
+//ground
+
+<a-entity position="" rotation="" scale="" geometry="primitive:plane" id="Ground" material="displacementScale:0;fog:false;metalness:0.13;normalMap:https://ucarecdn.com/8f025660-6eb2-46ed-909a-128c44002349/;normalScale:{&quot;x&quot;:3.26,&quot;y&quot;:2.45};roughness:0.6;src:https://ucarecdn.com/ebb9c95e-1fca-4988-9bbf-8e02f20ec42b/"></a-entity>
+
+
+// grass 1
+
+<a-entity position="6.803 0.121 -3.778" rotation="0.5156620156177408 66.34851267614933 0.5729577951308232" scale="1.53 0.63 1" id="grass-1" geometry="primitive:plane" material="depthTest:false;flatShading:true;side:double;transparent:true;src:https://ucarecdn.com/1a26f778-4d67-4d27-bb6f-18a3348c820b/"></a-entity>
+
+
+
+// grass 2
+
+<a-entity position="6.803 0.121 -3.778" rotation="0.5156620156177408 66.34851267614933 0.5729577951308232" scale="1.53 0.63 1" id="grass-2" geometry="primitive:plane" material="depthTest:false;flatShading:true;side:double;transparent:true;src:https://ucarecdn.com/dbbaa25c-684f-4bd1-a591-4343f50ca529/"></a-entity>

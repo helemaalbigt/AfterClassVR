@@ -1,0 +1,12 @@
+{
+  "name": "AfterClass_VR",
+  "version": "1.0.0",
+  "description": "My first multi-user virtual reality",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "author": "TVB",
+  "dependencies": {
+    "networked-aframe": "^0.2.0"
+  }
+}
